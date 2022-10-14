@@ -1,0 +1,5 @@
+all:
+ hosts:
+  frontend:
+   ansible_host: 192.168.184.134
+   ansible_user: admin
