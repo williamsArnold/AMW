@@ -1,6 +1,6 @@
 ---
 - name: installation d'appache
-   package: name=httpd state=latest
+  apt: name=httpd state=latest
 - name: copier le fichier de configuration
   copy: src=files/httpd.conf dest=/etc/httpd/conf/httpd.conf
 - name: copy index.html file
